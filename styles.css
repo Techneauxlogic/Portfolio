@@ -10,6 +10,10 @@ img{
     height: 250px;
 }
 
+.profileImage{
+    height: 150px;
+}
+
 .header{
     background-color: #022954;
     padding: 20px;
@@ -24,6 +28,7 @@ img{
 body{
     background-color: #505a74;
     color:#eaebfe;
+    margin: 0;
 }
 
 body > div{
@@ -33,11 +38,13 @@ body > div{
 
 hr {
     border: 3px solid #b0b8ce;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
 .sideBySide{
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 
 }
 
