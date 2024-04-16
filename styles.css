@@ -10,8 +10,7 @@ img{
     height: 250px;
 }
 
-
-header{
+.header{
     background-color: #022954;
     padding: 20px;
     color: #eaebfe;
@@ -24,10 +23,17 @@ header{
 
 body{
     background-color: #505a74;
-    color:#b0b8ce
+    color:#eaebfe;
 }
 
+body > div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+hr {
+    border: 3px solid #b0b8ce;
+  }
 
 .sideBySide{
     display: inline-block;
@@ -47,8 +53,6 @@ a:visited{
     color:#eaebfe
 
 }
-
-
 
 .inline{
     display: inline-block;
