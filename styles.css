@@ -15,14 +15,17 @@ img{
 }
 
 .header{
+    display: flex;
+    gap: 20px;
     background-color: #022954;
     padding: 20px;
     color: #eaebfe;
 }
 
 .navigationBar{
-    padding: 20px;
     background-color: #354c7c;
+    display: flex;
+    gap: 30px;
 }
 
 body{
@@ -42,15 +45,6 @@ hr {
     margin-bottom: 0;
   }
 
-.sideBySide{
-    display: inline-block;
-    vertical-align: middle;
-
-}
-
-.spaceLeft{
-    padding-left: 20px;
-}
 
 a:link{
     color:#eaebfe
@@ -63,4 +57,8 @@ a:visited{
 
 .inline{
     display: inline-block;
+}
+
+.larger{
+    font-size: 25px;
 }
